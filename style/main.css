@@ -1,0 +1,196 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+#all{
+    width:1200px;
+    height: 900px;
+    background: #F44336;
+    margin: 0 auto;
+}
+.header{
+    width:1200px;
+    height: 200px;
+    background: #D32F2F;
+    margin: 0 auto;
+    box-shadow:0px 0px 22px rgba(0, 0, 0, 0.62);
+
+}
+#logo{
+    float: right;
+    background-color: white;
+    width:600px;
+    height:160px;
+    margin: 20px 20px ;
+    opacity: 0.3;
+
+}
+#logo>h1{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 45px;
+}
+#info{
+    float:left;
+    height: 200px;
+    width:380px;
+    padding-left: 20px;
+}
+#info h3{
+    font-size: 20px;
+    padding-top: 15px;
+}
+#info h2{
+    font-size: 20px;
+    padding-top: 45px;
+    text-decoration:underline;
+    cursor: pointer
+}
+#people{
+    float:left;
+    width:350px;
+    height: 650px;
+    background: #D32F2F;
+    margin-top:50px;
+    box-shadow:0px 0px 22px rgba(0, 0, 0, 0.62);
+}
+#people>p{
+    padding-left: 11px;
+    margin-top: 10px;
+}
+#online{
+    width:330px;
+    height: 590px;
+    background: #FFF;
+    margin:20px 10px 10px; 
+    border-radius: 15px;
+}
+#online>p:first-child{
+    padding-top: 20px;
+}
+#online>p{
+    padding-top: 5px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+#online>p:hover{
+   color:orange;
+   cursor: pointer;
+}
+
+.centr{
+    height: 700px;
+    width: 850px;
+    float: right;
+    margin-top: 30px;
+}
+.centr>p{
+    float: left;
+    padding: 10px;
+    border: 1px solid;
+}
+.centr>p:first-child{
+    margin-left:60px;
+}
+.centr>p:hover{
+  background-color:black;
+  opacity: 0.3;
+  color:red;
+  transition: 1s;
+}
+#chat{
+    float:right;
+    width:800px;
+    height: 420px;
+    background: #fff;
+   margin-right: 10px;
+        border-radius: 15px 0px 0px 15px;
+        box-shadow:0px 0px 22px rgba(0, 0, 0, 0.62);
+}
+
+#chat span{
+    font-weight: bold;
+    font-size:20px;
+}
+#chat>p{
+margin-left:30px;
+}
+#chat>p:first-child{
+margin-top: 20px;
+}
+#message{
+    float:right;
+    width:800px;
+    height: 150px;
+      background: #fff;
+     margin-top:40px;
+     margin-right: 10px;
+     margin-bottom: 5px;
+        border-radius: 15px 0px 0px 15px;
+}
+#message>p{
+  float:right;
+ border: 1px solid;
+ padding: 5px;
+ text-align: centr;
+}
+#message>p:hover{
+	color:red;
+ 
+}
+#b{
+	float:right;
+	padding: 5px;
+	margin-right:30px;
+}
+#per{
+	margin-right:50px;
+}
+#message>textarea{
+  margin-left: 10px;
+  margin-top: 20px;
+      font-weight: bold;
+      padding:10px;
+      width:95%;
+      height: 50%;
+}
